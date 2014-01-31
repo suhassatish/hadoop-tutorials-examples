@@ -15,7 +15,7 @@
        <configuration>
          <property>
             <name>wf_application_path</name>
-            <value>{nameNode}/oozie/deployments/_suhas_-oozie-807-1384552240.98</value>
+	    <value>maprfs:///oozie/deployments/_suhas_-oozie-807-1384552240.98</value>
         </property>
       </configuration>
   </coordinator>
@@ -24,7 +24,7 @@
        <configuration>
          <property>
             <name>wf_application_path</name>
-            <value>{nameNode}/oozie/deployments/_suhas_-oozie-806-1384552283.32</value>
+	    <value>maprfs:///oozie/deployments/_suhas_-oozie-806-1384552283.32</value>
         </property>
       </configuration>
   </coordinator>
