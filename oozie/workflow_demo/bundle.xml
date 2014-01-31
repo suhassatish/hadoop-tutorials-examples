@@ -11,20 +11,20 @@
      <kick-off-time>2013-06-01T00:00Z</kick-off-time>
   </controls>
   <coordinator name='DailySleep-1' >
-     <app-path>${nameNode}/user/hue/oozie/deployments/_romain_-oozie-827-1384552268.08</app-path>
+     <app-path>${nameNode}/oozie/deployments/_suhas_-oozie-827-1384552268.08</app-path>
        <configuration>
          <property>
             <name>wf_application_path</name>
-            <value>hdfs://localhost:8020/user/hue/oozie/deployments/_romain_-oozie-807-1384552240.98</value>
+            <value>{nameNode}/oozie/deployments/_suhas_-oozie-807-1384552240.98</value>
         </property>
       </configuration>
   </coordinator>
   <coordinator name='DailyAnalytics-2' >
-     <app-path>${nameNode}/user/hue/oozie/deployments/_romain_-oozie-828-1384552298.63</app-path>
+     <app-path>${nameNode}/oozie/deployments/_suhas_-oozie-828-1384552298.63</app-path>
        <configuration>
          <property>
             <name>wf_application_path</name>
-            <value>hdfs://localhost:8020/user/hue/oozie/deployments/_romain_-oozie-806-1384552283.32</value>
+            <value>{nameNode}/oozie/deployments/_suhas_-oozie-806-1384552283.32</value>
         </property>
       </configuration>
   </coordinator>
